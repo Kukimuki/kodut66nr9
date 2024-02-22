@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+.carousel-item img {
+    height: 75vh; /* 75% of the viewport height */
+    object-fit: cover;
+}
+
+    .carousel-control-prev {
+        left: 10%; /* 10% läheb vasaka ääre 10% sisse */
+       
+
+    }
+    
+    .carousel-control-next {
+        right: 10%; /* 10% läheb parema ääre 10% sisse */
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .marketing {
+        text-align: center;
+    }
+
+    .marketing h2 {
+        font-size: 3rem;
+        margin-bottom: 7rem;
+        margin-top: 2rem;
+    }
+
+    .float-right {
+        float: right;
+    }
